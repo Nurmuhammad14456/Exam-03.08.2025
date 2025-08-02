@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Inter", sans-serif;
+}
+@layer utilities {
+  .bg-whit {
+    background: #f8fafc;
+  }
+
+  .bg-kok {
+    background: #1d72d2;
+  }
+
+  .text-dark {
+    color: #8a90a5;
+  }
+
+  .text-blue {
+    color: #1d72d2;
+  }
+  .text-white {
+    color: white;
+  }
+  .text-gren {
+    color: #70c63b;
+  }
+}
